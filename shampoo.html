@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replicar Anúncio</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    color: white;
+}
+
+.container {
+    position: relative;
+    width: 736px;
+    height: 1308px;
+    margin: 0 auto;
+    background-color: #000000;
+    background-image: url('modelo_pinterest.png'); /* Aqui está a imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.morcego {
+    height: 7%;
+    position: relative;
+    top: -6%;
+}
+
+.content {
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.main-text {
+    font-size: 15vh;
+    color: white;
+    text-shadow: 
+        0 0 1px rgba(37, 2, 53, 0.8),
+        0 0 8px rgba(247, 0, 255, 0.6),
+        0 0 20px #9000ff,
+        0 0 1px #8f00ff;
+    margin: 0;
+}
+
+/* Posicionamento específico para "SHAMPOO" */
+.shampoo {
+    margin-top: 1px; /* Ajuste para mover para cima */
+}
+
+/* Posicionamento específico para "AUTOMOTIVO" */
+.automotivo {
+    margin-top: 480px; /* Ajuste para mover para baixo */
+}
+
+.side-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-shadow: 
+        0 0 1px #41016b,
+        0 0 2px #ff00ff;
+}
+
+.side-text.left {
+    left: 10px;
+}
+
+.side-text.right {
+    right: 10px;
+}
+
+.side-text span {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    color: #ff00ff;
+}
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        font-family: 'Roboto', sans-serif;
+        background-color: #000000;
+        color: white;
+    }
+
+    .container {
+        position: relative;
+        width: 1080px;
+        height: 1920px;
+        margin: 0 auto;
+        background-color: #000000;
+        background-image: url('modelo_pinterest.png'); /* Aqui está a imagem de fundo */
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .morcego {
+        height: 7%;
+        position: relative;
+        top: -6%;
+    }
+
+    .content {
+        text-align: center;
+        position: relative;
+        width: 100%;
+    }
+
+    .main-text {
+        font-size: 15vh;
+        color: white;
+        text-shadow: 
+            0 0 1px rgba(37, 2, 53, 0.8),
+            0 0 8px rgba(247, 0, 255, 0.6),
+            0 0 20px #9000ff,
+            0 0 1px #8f00ff;
+        margin: 0;
+    }
+
+    /* Posicionamento específico para "SHAMPOO" */
+    .shampoo {
+        margin-top: 1px; /* Ajuste para mover para cima */
+    }
+
+    /* Posicionamento específico para "AUTOMOTIVO" */
+    .automotivo {
+        margin-top: 480px; /* Ajuste para mover para baixo */
+    }
+
+    .side-text {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 20px;
+        letter-spacing: 5px;
+        text-shadow: 
+            0 0 1px #41016b,
+            0 0 2px #ff00ff;
+    }
+
+    .side-text.left {
+        left: 10px;
+    }
+
+    .side-text.right {
+        right: 10px;
+    }
+
+    .side-text span {
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        color: #ff00ff;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="morcego.png" class="morcego">
+        <div class="content">
+            <p class="main-text shampoo">SHAMPOO</p>
+            <p class="main-text automotivo">AUTOMOTIVO</p>
+        </div>
+        <div class="side-text left">
+            <span>NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW</span>
+        </div>
+        <div class="side-text right">
+            <span>NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW . NEW</span>
+        </div>
+    </div>
+</body>
+</html>
